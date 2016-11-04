@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/gssirohi/AndroidStudioProjects/GITHUB/MVP/app/build/intermediates/res/merged/debug/menu/menu_my_trips_list.xml",
+        "source": "/home/gssirohi/AndroidStudioProjects/GITHUB/MVP/app/src/main/res/menu/menu_my_trips_list.xml"
+    },
+    {
+        "merged": "/home/gssirohi/AndroidStudioProjects/GITHUB/MVPApplication/app/build/intermediates/res/merged/debug/menu/menu_my_trips_list.xml",
+        "source": "/home/gssirohi/AndroidStudioProjects/GITHUB/MVPApplication/app/src/main/res/menu/menu_my_trips_list.xml"
+    }
+]
