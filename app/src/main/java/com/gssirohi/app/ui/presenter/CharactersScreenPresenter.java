@@ -23,7 +23,7 @@ public class CharactersScreenPresenter implements ICharactersScreenPresenter {
     private CharactersScreenViewContract viewContract;
     private MCharacter character;
     private int offset;
-    private int limit = 30;
+    private int limit = 60;
 
     public CharactersScreenPresenter(Context context) {
         fetchCharacterListUseCase = (FetchProductListUseCase) AppCore.getInstance().getProvider().getUseCaseImpl(context, UseCases.FETCH_PRODUCT_LIST);

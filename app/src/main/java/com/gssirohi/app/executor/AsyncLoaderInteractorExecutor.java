@@ -3,6 +3,7 @@ package com.gssirohi.app.executor;
 
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
+import android.support.v4.content.AsyncTaskLoader;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 
@@ -13,7 +14,6 @@ public class AsyncLoaderInteractorExecutor implements IInteractorExecutor, Loade
     private final AppCompatActivity activity;
     private final InteractorAsyncLoader loader;
     private boolean running;
-
 
     public AsyncLoaderInteractorExecutor(AppCompatActivity activity, InteractorAsyncLoader loader) {
         this.activity = activity;
